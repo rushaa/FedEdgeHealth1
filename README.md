@@ -12,14 +12,6 @@ FedEdgeHealth was evaluated on three publicly available medical datasets. We do 
 * **COVID-Qu-Ex:** [Official Mendeley Database](https://data.mendeley.com/datasets/9xkhgts2s6/3)
 * **MIMIC-III:** [Official Kaggle Repository](https://www.kaggle.com/datasets/asjad99/mimiciii?resource=download)
 
-## Framework Overview
-
-The FedEdgeHealth framework addresses the interdependent challenges of data privacy, heterogeneity, and adversarial robustness in federated medical image and electronic health record analysis. Key components include:
-
-* **Hierarchical Client-Edge-Cloud Architecture:** A three-tier topology that reduces central server communication overhead by 67% to 80% compared to traditional flat federated learning architectures.
-* **Multi-Metric Byzantine Defense:** An aggregation mechanism leveraging cosine similarity, Euclidean distance, and update magnitude to filter malicious updates under clinical non-independent and identically distributed (non-IID) data shifts.
-* **Dual-Layer Privacy Mechanism:** Integration of client-level differential privacy (epsilon = 0.93) with lightweight transmission obfuscation (LWC) to ensure formal privacy guarantees and transit-level confidentiality without the computational burden of full homomorphic encryption.
-
 ## Reproduction and Setup
 
 Upon public release, this repository will include:
